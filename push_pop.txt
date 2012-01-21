@@ -1,0 +1,19 @@
+Program 1 : Write a program to simulate the push/pop functionality of a Stack.
+
+=> In this program you can have three choices
+	1) Push
+	2) Pop
+	3) Exit
+   Now for the choice 'Push' I have taken a function Push(int[],int*,int*)
+
+1)Push: => First of all i have taken an array of integer for pushing numbers between 0 to 9 in sequence.
+	=> A ' last_no ' variable is taken for keeping the last entered number to maintain the sequence.
+	=> If both 'if' conditions are satisfied and particular entry is proper then it will be pushed into array (stack).
+	=> But for wrong entry you will see a message and you have to change and reenter the number.
+
+2)Pop:  => Another array is taken for Pop ,and all popped elements are stored in that array as a pattern.
+	=> Last element has been entered in stack is poped for a pop call.
+	=> But if stack is empty , you will see a message and you will not be able to pop any element before push event.
+
+3)Exit: => To leave the program you can use this choice.
+	

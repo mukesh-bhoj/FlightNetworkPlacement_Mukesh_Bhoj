@@ -1,0 +1,13 @@
+A singly linked list is used for this game.
+A next pointer variable is taken for keeping track of next kid.
+
+Now to play this game in proper manner i have used ' add() ' and ' eliminate() ' functins.
+
+add() :		=> This is basically used to enter kids in the linked list in proper order.
+		=> 'First' node keeps tack of starting kid in the game.
+
+eliminate() :	=> To use this function , you must have to enter a random number N which is between 1 to (total number of kids)-1.
+		=> It starts from first kid to N kid and eliminate that kid and then continue it from N+1 kid.
+		=> Elimination continues till only one child remains.
+
+Hence the last kid will become winner.
